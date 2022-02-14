@@ -1,7 +1,17 @@
-let S = 2000000;
-let p = 0.1;
-let years = 5;
-let perepl;
+let id = 1;
 
-perepl = S*p*years
-console.log(`Переплата по ипотеке равна ${perepl} руб.`)
+function hi() {
+	let table = document.getElementById("tbl");
+	let name = document.getElementById("name").value;
+	let tr = document.createElement('tr');
+	let td1 = document.createElement('td');
+	let td2 = document.createElement('td');
+
+	td1.textContent = id;
+	td2.textContent = name;
+	tr.appendChild(td1);
+	tr.appendChild(td2);
+	table.appendChild(tr);
+
+	id += 1;
+}
