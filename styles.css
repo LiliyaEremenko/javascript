@@ -1,0 +1,25 @@
+body {
+	background-color: #b4addb;
+	align-items: center;
+	color: #dcdcdc;
+	font-size: 20px;
+}
+button {
+	margin: 10px 4px;
+	background-color: #755d9a;
+	color: white;
+	width: 110px;
+	height: 30px;
+}
+th {
+	color: #755d9a;
+}
+a {
+	display: block;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: green;
+}
