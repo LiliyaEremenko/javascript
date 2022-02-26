@@ -43,6 +43,8 @@ function load_all() {
 }
 
 function load_student(id) {
+	let img = document.getElementById('logo')
+	img.src = 'http://217.71.129.139:4035/'+students[id].logo
 	let head = document.getElementById('zagolovok')
 	head.textContent = 'Информация о студенте № ' + students[id].id
 	let name = document.getElementById('name')
