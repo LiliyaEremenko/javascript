@@ -23,3 +23,10 @@ a:hover {
 a:active {
 	color: green;
 }
+img {
+	height: 200px;
+}
+button:disabled {
+	background-color: #dcdcdc;
+	color: black;
+}
